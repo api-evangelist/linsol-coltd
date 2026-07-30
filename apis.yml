@@ -1,19 +1,49 @@
 aid: linsol-coltd
 name: LINSOL Co.,Ltd.
-description: LINSOL Co.,Ltd. is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'LINSOL Co.,Ltd. (린솔) is a safety-technology company headquartered in Daejeon,
+  South Korea, founded as an in-house venture spun out of Hanwha Aerospace. LINSOL adapts
+  acoustic detection techniques originally developed for defense landmine applications
+  into commercial real-time hazard, accident, and environmental detection. Its product line
+  includes Karang F (driving-environment detection), Karang S (precision acoustic signal
+  transmission), SkyShield (fall detection), BR, Acoustic Eye (aerial security), and Safety
+  Nova (smart integrated safety platform), sold into industrial safety, ESG, and defense
+  security use cases. The company operates a Daejeon headquarters and research center plus a
+  Goheung branch. LINSOL ships hardware and integrated platforms; as of a 2026-07-19 probe it
+  publishes no public developer API, portal, SDK, or machine-readable specification.'
 url: https://raw.githubusercontent.com/api-evangelist/linsol-coltd/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://linsol.kr/data/member/design/design_149_17564284699294.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: portfolio-lead-no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Safety
+- Industrial Safety
+- Internet of Things
+- Hardware
+- Acoustics
+- Sensors
+- Location Tracking
+- Defense
+- ESG
+- South Korea
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,26 @@ maintainers:
 common:
 - type: Website
   url: https://linsol.kr
+- type: About
+  url: https://linsol.kr/gw_page1.php?ti=cate1&me_co=1010
+- type: Blog
+  url: https://blog.naver.com/linsol__
+- type: News
+  url: https://linsol.kr/gwbbs/board.php?bo_table=bbs1&me_co=4020
+- type: LinkedIn
+  url: https://www.linkedin.com/company/linsol-welcome
+- type: YouTube
+  url: https://www.youtube.com/@linsol-j8b/featured
+- type: Instagram
+  url: https://www.instagram.com/linsol_official/
+- type: Email
+  url: mailto:welcome@linsol.kr
+- type: DomainSecurity
+  url: security/linsol-coltd-domain-security.yml
+- type: LLMsTxt
+  url: llms/linsol-coltd-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
