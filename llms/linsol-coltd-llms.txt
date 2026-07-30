@@ -1,0 +1,42 @@
+# LINSOL Co.,Ltd.
+
+> LINSOL (린솔) is a Daejeon, South Korea safety-technology company spun out as an in-house
+> venture from Hanwha Aerospace. It applies acoustic detection techniques originally developed
+> for defense landmine applications to real-time hazard, accident, and environmental detection.
+> Its tagline is "Hearing the Invisible, Protecting the Invaluable." LINSOL ships hardware and
+> integrated safety platforms rather than a public developer API — as of this writing there is
+> no developer portal, API reference, SDK, or machine-readable specification published.
+
+## Company
+
+- [Website](https://linsol.kr): Korean-language corporate site.
+- [Company Introduction](https://linsol.kr/gw_page1.php?ti=cate1&me_co=1010): Origin as a Hanwha Aerospace in-house venture and the acoustic-detection technology story.
+- [History & Partnerships](https://linsol.kr/gw_page2.php?ti=cate1&me_co=1020)
+- [Solution Introduction](https://linsol.kr/gw_page4.php?ti=cate2&me_co=2010)
+
+## Products
+
+- [Karang F](https://linsol.kr/gw_page5.php?ti=cate3&me_co=3010): Driving-environment detection system.
+- [Karang S](https://linsol.kr/gw_page6.php?ti=cate32&me_co=3020): Precision acoustic signal transmission device.
+- [SkyShield](https://linsol.kr/gw_page7.php?ti=cate33&me_co=3030): Fall detection device.
+- [BR](https://linsol.kr/gw_page8.php?ti=cate34&me_co=3040)
+- Acoustic Eye: aerial security system.
+- Safety Nova: smart integrated safety platform.
+
+## News
+
+- [Corporate News](https://linsol.kr/gwbbs/board.php?bo_table=bbs1&me_co=4020)
+- [Notices](https://linsol.kr/gwbbs/board.php?bo_table=bbs2&me_co=4010)
+- [Naver Blog](https://blog.naver.com/linsol__)
+
+## Elsewhere
+
+- [LinkedIn](https://www.linkedin.com/company/linsol-welcome)
+- [YouTube](https://www.youtube.com/@linsol-j8b/featured)
+- [Instagram](https://www.instagram.com/linsol_official/)
+
+## API surface
+
+None published. Probes on 2026-07-19 found no /.well-known/ discovery documents, no
+/llms.txt, and no api./docs./developer./portal. subdomains resolving in DNS.
+Contact: welcome@linsol.kr

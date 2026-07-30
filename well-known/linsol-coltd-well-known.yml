@@ -1,0 +1,27 @@
+generated: '2026-07-19'
+method: probed
+source: live HTTP probes of https://linsol.kr
+host: https://linsol.kr
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404
+- path: /robots.txt
+  status: 200
+- path: /sitemap.xml
+  status: 404
+notes: >-
+  No .well-known discovery surface is published. Only /robots.txt returned 200
+  (it references https://linsol.kr/sitemap.php and carries a placeholder comment
+  indicating the file was never adapted to the production domain). No WellKnown
+  or SecurityTxt pointer is wired into apis.yml because no discovery document
+  exists.
