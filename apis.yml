@@ -11,6 +11,17 @@ description: 'LINSOL Co.,Ltd. (린솔) is a safety-technology company headquarte
   Goheung branch. LINSOL ships hardware and integrated platforms; as of a 2026-07-19 probe it
   publishes no public developer API, portal, SDK, or machine-readable specification.'
 url: https://raw.githubusercontent.com/api-evangelist/linsol-coltd/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
